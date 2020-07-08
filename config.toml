@@ -1,4 +1,4 @@
-baseURL = "http://hengdashi.github.io/"
+baseURL = "hengdashi.github.io"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
