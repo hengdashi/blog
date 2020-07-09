@@ -1,4 +1,8 @@
-# About Me
+---
+title: "About Me"
+date: 2020-07-08T15:59:59-07:00
+draft: false
+---
 
 Welcome! My name is *Hengda Shi*.
 
@@ -10,4 +14,3 @@ I am mainly interested in [machine learning](https://en.wikipedia.org/wiki/Machi
 This tech blog is created to document my journey in Computer Science as I am really bad at *memorization*. Hopefully you would find it useful to some extent as well.
 
 My resume is included [here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/hengdashi/resume/master/hengda_resume.pdf) if you are interested.
-
