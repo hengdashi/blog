@@ -2,6 +2,8 @@ baseURL = "https://hengdashi.dev"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
+googleAnalytics = "UA-170900618-1"
+enableEmoji = true
 
 [params]
   # dir name of your blog content (default is `content/posts`).
