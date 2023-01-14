@@ -1,6 +1,6 @@
 # This is the repo for hosting up my blog
 
-This theme was installed by `hugo mod`.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3ad983c6-0f65-45eb-8205-3a0a54562891/deploy-status)](https://app.netlify.com/sites/hengdashi/deploys)
 
 ## Editable files
 
