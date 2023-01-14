@@ -21,8 +21,17 @@
     └── ... # favicons
 ```
 
+## Local Debugging
+
+Run the following command in the project directory.
+```bash
+hugo server
+```
+
 ## Host & Deploy
 
+Create a MR and merge.
+Netlify will follow the instruction provided in `netlify.toml` to build the website.
 
 ## Upgrade the theme
 
