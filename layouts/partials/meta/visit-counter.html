@@ -1,0 +1,17 @@
+<span id="{{ .File.UniqueID }}" title="{{ i18n "article.visit_title" }}">
+    {{- ":see_no_evil:" | markdownify | emojify -}}
+</span>
+<script async>
+    var r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+        try {
+            document.getElementById('{{ .File.UniqueID }}').innerText = JSON.parse(this.responseText).count + " " + {{ i18n "article.visit_name" | markdownify | emojify }}
+        }
+        catch (SyntaxError) {
+            document.getElementById('{{ .File.UniqueID }}').innerText = {{- ":see_no_evil:" | markdownify | emojify -}}
+        }
+    })
+    r.open('GET', 'some url???' + encodeURIComponent({{ .RelPermalink }}.replace(/(\/)?$/, '')) + '.json')
+    r.send()
+</script>
+{{- /* Trim EOF */ -}}
