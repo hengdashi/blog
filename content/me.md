@@ -9,7 +9,6 @@ showAuthor: false
 showReadingTime: false
 showWordCount: false
 showVisitCount: false
-showComments: false
 
 showTableOfContents: true
 # showBreadcrumbs: true
