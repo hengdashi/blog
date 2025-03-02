@@ -6,7 +6,7 @@ baseURL = "https://hengdashi.dev/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 10
+pagination.pagerSize = 10
 summaryLength = 0
 
 googleAnalytics = "G-V07JJX37RG"
