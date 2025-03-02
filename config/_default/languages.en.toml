@@ -1,16 +1,15 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
+languageDirection = "ltr"
 weight = 1
-rtl = false
 
 title = "Hengda Shi"
-description = "me ranting"
 copyright = "© 2025 Hengda Shi."
 
-
-dateFormat = "Mon, Jan 2, 2006"
+[params]
+  dateFormat = "Mon, Jan 2, 2006"
+  # mainSections = ["samples"]
+  description = "me ranting"
 
 [params.author]
   # name = "Hengda Shi"
@@ -18,7 +17,7 @@ dateFormat = "Mon, Jan 2, 2006"
   # headline = ":melting_face:"
   bio = ""
   links = [
-    { email = "mailto:hengdashi@outlook.com" },
+    # { email = "mailto:hengdashi@outlook.com" },
     # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
@@ -30,7 +29,7 @@ dateFormat = "Mon, Jan 2, 2006"
     # { facebook = "https://facebook.com/username" },
     # { flickr = "https://www.flickr.com/photos/username/" },
     # { foursquare = "https://foursquare.com/username" },
-    { github = "https://github.com/hengdashi" },
+    # { github = "https://github.com/hengdashi" },
     # { gitlab = "https://gitlab.com/username" },
     # { google = "https://www.google.com/search?q=site:hengdashi.dev" },
     # { hashnode = "https://username.hashnode.dev" },
