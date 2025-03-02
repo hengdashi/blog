@@ -12,8 +12,6 @@ article:
   word_count:
     one: "{{ .Count }} word"
     other: "{{ .Count }} words"
-  visit_title: "Page views"
-  visit_name: "{{ .Count }} :eyes:"
 
 author:
   byline_title: "Author"
@@ -53,6 +51,13 @@ sharing:
   pinterest: "Pin on Pinterest"
   reddit: "Submit to Reddit"
   twitter: "Tweet on Twitter"
+  threads: "Post on Threads"
+  telegram: "Share on Telegram"
+  line: "Share on LINE"
+  weibo: "Share on Weibo"
+  x-twitter: "Post on X"
+  xing: "Share on XING"
 
 shortcode:
   recent_articles: "Recent"
+

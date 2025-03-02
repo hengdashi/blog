@@ -15,6 +15,22 @@
   pageRef = "articles"
   weight = 10
 
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/hengdashi"
+  weight = 30
+  [main.params]
+    icon = "github"
+    showName = false
+    target = "_blank"
+
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
+    icon = "search"
+
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.

@@ -6,10 +6,15 @@ baseURL = "https://hengdashi.dev/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-pagination.pagerSize = 10
 summaryLength = 0
 
-googleAnalytics = "G-V07JJX37RG"
+[pagination]
+  pagerSize = 15
+
+
+[services]
+  [services.googleAnalytics]
+    id = "G-V07JJX37RG"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
