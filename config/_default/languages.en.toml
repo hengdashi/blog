@@ -5,21 +5,20 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-title = "Hengda Shi :speak-no-evil_monkey:"
+title = "Hengda Shi"
 description = "me ranting"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = "© 2025 Hengda Shi."
+
 
 dateFormat = "Mon, Jan 2, 2006"
 
-[header]
-
-[author]
-  name = "Hengda Shi"
-  image = "img/me.jpg"
-  headline = "Machine Learning, Engineering, Life :melting_face:"
+[params.author]
+  # name = "Hengda Shi"
+  # image = "img/me.jpg"
+  # headline = ":melting_face:"
   bio = ""
   links = [
-    { email = "mailto:me@hengdashi.dev" },
+    { email = "mailto:hengdashi@outlook.com" },
     # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
